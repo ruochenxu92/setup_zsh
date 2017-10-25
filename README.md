@@ -6,8 +6,7 @@ git clone https://github.com/xxu46/setup_zsh && open setup_zsh
 
 config iterm2 profile text based on iterm2.png
 
-git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-
 cp zshrc ~/.zshrc
 
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
