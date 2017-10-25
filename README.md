@@ -23,3 +23,26 @@ git config --global user.name xxxxx_your_github_username
 git config --global user.name xxxxx_your_github_email
 
 ```
+
+
+**Background**
+xx team requests a checkbox on xxx dashboard to mark whether report has been delivered to us. The checkbox needs to be persist in `InAppSurvey` entity.
+
+**Change**
+Add a `Boolean` in `InAppSurvey` entity.
+
+**Test Plan**
+Testing with frontend integration in devsnapchat.
+
+**Operational Checkboxes**
+- This change **can/cannot** be rolled out incrementally
+   - [x] **CAN** 
+   - [ ] **CANNOT**
+- This change **can/cannot** be safely rolled back
+   - [x] **CAN** 
+   - [ ] **CANNOT**
+ - Some Considerations
+    - JSON or Protobuf Schema Changes
+    - Task Class Changes/Additions
+    - Datastore Entity changes 
+    - Change is a bug fix
