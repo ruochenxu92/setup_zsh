@@ -10,9 +10,4 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 
 cp zshrc ~/.zshrc
 
-# open ~/.zshrc, put this, and restart terminal
-plugins=(zsh-autosuggestions)
 ```
-
-
-
