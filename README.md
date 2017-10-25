@@ -15,4 +15,11 @@ source ~/.zshrc
 open new tab 
 
 l => ls
+
+git config --list
+
+git config --global user.name xxxxx_your_github_username
+
+git config --global user.name xxxxx_your_github_email
+
 ```
