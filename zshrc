@@ -84,7 +84,6 @@ plugins=(
     pip
     python
     rvm
-    tmux
     vagrant
     virtualenv
     zsh-completions
@@ -149,7 +148,6 @@ alias b='git branch'
 alias ds='docker stop $(docker ps -a -q)'
 alias dr='docker rm $(docker ps -a -q)'
 
-alias c='clear'
 alias h='history'
 alias k='kubectl '
 
