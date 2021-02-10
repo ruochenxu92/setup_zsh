@@ -1,6 +1,5 @@
 sudo apt -y update
 sudo apt -y install zsh
-cd ~
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended --skip-chsh --keep-zshrc
 wget -O ~/.zshrc https://raw.githubusercontent.com/ruochenxu92/setup_zsh/master/example_zshrc
 echo 'exec zsh' >>  ~/.bashrc
