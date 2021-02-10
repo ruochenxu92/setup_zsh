@@ -5,4 +5,4 @@ wget -O ~/.zshrc https://raw.githubusercontent.com/ruochenxu92/setup_zsh/master/
 echo 'exec zsh' >>  ~/.bashrc
 mkdir -p ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-source  ~/.zshrc
+source  ~/.bashrc
