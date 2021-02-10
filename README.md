@@ -1,5 +1,11 @@
+ALL IN ONE
+```
+sh -c "$(wget https://raw.githubusercontent.com/ruochenxu92/setup_zsh/master/install.sh -O -)"
+```
+
 
 ```sh
+
 git clone https://github.com/chantra/dotfiles && cd dotfiles && ./install.sh
 
 git clone https://github.com/xxu46/setup_zsh && open setup_zsh 
