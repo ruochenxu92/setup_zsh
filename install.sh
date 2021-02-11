@@ -6,3 +6,4 @@ echo 'exec zsh' >>  ~/.bashrc
 mkdir -p ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 source  ~/.bashrc
+echo "success"
