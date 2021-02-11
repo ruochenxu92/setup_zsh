@@ -1,6 +1,6 @@
 ALL IN ONE
 ```
-sh -c "$(wget https://raw.githubusercontent.com/ruochenxu92/setup_zsh/master/install.sh -O -)"
+bash -c "$(wget https://raw.githubusercontent.com/ruochenxu92/setup_zsh/master/install.sh -O -)"
 ```
 
 
